@@ -20,7 +20,11 @@ List<Course> list = StudentCourseDao.getAllCourse();
 	<form action="ActionController" method="post">
 		<table>
 			<tr>
+<<<<<<< HEAD
 				<td>Student Fname:checking_aftergit chechbdhfupdate</td>
+=======
+				<td>Student Fname:1222</td>
+>>>>>>> branch 'master' of https://github.com/monaborisagar/workflow2.git
 				<td><input type="text" name="fname"></td>
 			</tr>
 			<tr>
