@@ -37,7 +37,7 @@ public class StudentCourseDao {
 		Transaction tr=session.beginTransaction();
 	 Query query = 	session.createQuery("Select max(s.sid) FROM Student s ");
 	 int max_sid = (int) query.list().get(0);
-	 System.out.println("max id is "+max_sid);
+	 System.out.println("max id is ccccrrrr "+max_sid);
 		tr.commit();
 		session.close();
 		return max_sid;
