@@ -16,10 +16,11 @@
 List<Course> list = StudentCourseDao.getAllCourse();
 
 %>
+
 	<form action="ActionController" method="post">
 		<table>
 			<tr>
-				<td>Student Fname:</td>
+				<td>Student Fname:checking</td>
 				<td><input type="text" name="fname"></td>
 			</tr>
 			<tr>
