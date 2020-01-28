@@ -20,7 +20,7 @@ List<Course> list = StudentCourseDao.getAllCourse();
 	<form action="ActionController" method="post">
 		<table>
 			<tr>
-				<td>Student Fname:checking</td>
+				<td>Student Fname:checking_aftergit</td>
 				<td><input type="text" name="fname"></td>
 			</tr>
 			<tr>
